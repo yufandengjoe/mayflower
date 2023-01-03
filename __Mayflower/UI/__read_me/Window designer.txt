@@ -1,0 +1,24 @@
+under path: 
+	- python\Scripts\pyside2-designer.exe
+	- Python37\Lib\site-packages\site-packages\PySide2\designer.exe
+
+User guide:
+	- Template form at entry: 
+		- create main window (with toolbar)
+		- create wedget (without toolbar)
+	- Drag in elements
+	- Change targe names
+	- Adjust position and features
+	- Preview to ensure that application is working fine
+	- Save result as ui (xml formate file)
+
+Layout design:
+	- Select multiple objects in the ui, right-click - layout
+	- Create layout from smaller set to bigger set
+	- Right-click the top layer object in object window to select layout, 
+		*after setting layout, the entire window is automatically adjustable
+	- Set the feature - size policy to change how size is adjusted according to the window 
+		*change to fixed to turnoff adjustible feature
+	- Add another layer of layout to put buttons in the middle, drag to the object viewer - layer object
+	- Adjust margin in features to leave space around contents
+	- Add spacer object to add space between objects

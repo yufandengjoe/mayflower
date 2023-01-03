@@ -1,0 +1,14 @@
+pip install pyside2
+pip install pyqt5-tools
+
+bug:
+
+copy:
+
+\Anaconda\Lib\site-packages\PySide2\plugins\platforms\qminimal.dll
+\Anaconda\Lib\site-packages\PySide2\plugins\platforms\qoffscreen.dll
+\Anaconda\Lib\site-packages\PySide2\plugins\platforms\qwindows.dll
+
+to:
+
+\Anaconda\Library\plugins\platforms\
